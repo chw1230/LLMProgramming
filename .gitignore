@@ -2,3 +2,20 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (API key 등은 절대 커밋하지 않기)
+.env
+*.env
+
+# Large artifacts
+*.pt
+*.pth
+*.bin
+*.safetensors

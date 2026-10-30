@@ -29,7 +29,7 @@ def main() -> None:
         print(f"GPU tensor test : OK, {tuple(y.shape)}")
     else:
         print("GPU tensor test : FAILED")
-        print("=" * 60)
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()
